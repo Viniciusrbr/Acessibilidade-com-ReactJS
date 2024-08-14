@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <div className={styles.header}>
-        <Image src={LogoImg} alt="Logo" width={286 / 2} />
+        <Image src={LogoImg} width={286 / 2} />
 
         <div className={styles.nav}>
           <a href="https://github.com/Viniciusrbr">
