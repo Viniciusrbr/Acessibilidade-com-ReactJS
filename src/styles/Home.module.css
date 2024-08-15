@@ -15,13 +15,9 @@
 }
 
 .content{
-  color: #555;
-
-
   max-width: 776px;
   width: 100%;
   margin: 0 auto;
-
   padding: 24px 20px;
 }
 
@@ -29,6 +25,26 @@
   margin: 20px 0;
 }
 
-.content h2 {
+.content h1 {
  margin-bottom: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+
+  max-width: 1064px;
+  width: 100%;
+  margin: 0 auto;
+
+  padding: 24px 20px;
+}
+
+.footer a {
+  padding:  1rem 2rem;
+  background: #202024;
+  border-radius: 5px;
+
+  color: #996dff;
 }
